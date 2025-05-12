@@ -5,11 +5,23 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start-backend": "node src/app.js"
   },
   "dependencies": {
+    "@capacitor/android": "^7.2.0",
+    "@capacitor/cli": "^7.2.0",
+    "@capacitor/core": "^7.2.0",
+    "axios": "^1.9.0",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1",
+    "vue": "^3.2.13",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
